@@ -3,10 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
 :root{
-    --light-color:#fffffa;
-    --gradiente: linear-gradient(174.61deg, #041833 4.16%, #04244F 48%, #154580 96.76%);
-    --Azulclaro-color:#22D4FD;
-    --Azulescuro-color:#123F77;
+   --branco-color:#fffffa;
+    --gradiente: linear-gradient(174.61deg, #120217 20%, #260736 50%, #3f0958 70%);
+    --verde-color:#16FF00;
 }
 
 *{
@@ -23,18 +22,18 @@ body{
 }
 
 .titulo{
-    color: #fffffa;
+    color: var(--branco-color);
     font-size:36px ;
     font-family: 'Krona One', sans-serif;
 
 }
 
 .titulo-destaque{
-    color: #22D4FD;
+    color: var(--verde-color);
 }
 
 p{
-    color: #fffffa;
+    color: var(--branco-color;
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -60,7 +59,7 @@ p{
 }
 
 .link_instagram {
-    background-color: #22D4FD;
+    background-color: var(--verde-color);
     width: 240px;
     text-align: center;
     border-radius: 16px;
@@ -73,7 +72,7 @@ p{
 } 
 
 .link_github{
-    background-color: #22D4FD;
+    background-color: var(--verde-color);
     width: 240px;
     text-align: center;
     border-radius: 16px;
