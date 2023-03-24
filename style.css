@@ -45,7 +45,7 @@ p{
     justify-content: space-between;
 }
 
-.peito{
+.conteudo{
     width: 615px;
     display: flex;
     flex-direction:column;
@@ -82,4 +82,43 @@ p{
     color: #000000;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+}
+
+@media (max-width: 1200px){
+
+    .corpo{
+        flex-direction: column-reverse;
+}
+
+.conteudo{
+    width: auto;
+}
+img{
+    width: 70%;
+}
+}
+
+@media (max-width: 950px){
+    .corpo{
+        flex-direction: column-reverse;
+}
+
+.conteudo{
+    width: auto;
+}
+
+.links{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+img{
+    width: 90%;
+}
+}
+
+@media (max-width: 750px){
+    img{
+        width: 100%;
+    }
 }
